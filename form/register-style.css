@@ -1,4 +1,31 @@
 @charset "utf-8";
-form {
-    background-color: aqua;
+
+th,
+td,
+table {
+    border: solid 3px black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+th {
+    background-color: gray;
+    color: white;
+    text-align: left;
+    vertical-align: top;
+}
+
+td {
+    background-color: rgb(206, 206, 206);
+}
+
+span.important {
+    background-color: red;
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+}
+
+span.subtext {
+    font-size: 9px;
 }
