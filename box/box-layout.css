@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    /* width: 90%; */
+}
+
+p {
+    /* width: 90%; */
+    font-size: 10px;
+    text-align: left;
+    padding: 10px;
+}
+/* アンカータグ */
+a{
+    background-color: rgb(248, 129, 129);
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+/* 画像を中央 */
+.img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+
+.img img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+/* ボックスの子要素 */
+.box .item {
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(113, 255, 255);
+    
+}
+/* ボックス */
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
